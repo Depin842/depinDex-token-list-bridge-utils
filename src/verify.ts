@@ -1,4 +1,4 @@
-import { TokenList } from '@uniswap/token-lists'
+import { TokenList } from 'depin-dex-token-lists'
 
 /**
  * Verifies that for each token with extensions.bridgeInfo defined, for every

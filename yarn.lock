@@ -2133,23 +2133,6 @@
     "@typescript-eslint/types" "5.23.0"
     eslint-visitor-keys "^3.0.0"
 
-"@uniswap/sdk-core@^4.0.6":
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/@uniswap/sdk-core/-/sdk-core-4.0.6.tgz#7b6d562f54293bbe0a9d101fb84e619db325f7b6"
-  integrity sha512-6GzCVfnOiJtvo91zlF/VjnC2OEbBRThVclzrh7+Zmo8dBovXwSlXwqn3RkSWACn/XEOzAKH70TficfOWm6mWJA==
-  dependencies:
-    "@ethersproject/address" "^5.0.2"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.4"
-    tiny-invariant "^1.1.0"
-    toformat "^2.0.0"
-
-"@uniswap/token-lists@^1.0.0-beta.33":
-  version "1.0.0-beta.33"
-  resolved "https://registry.yarnpkg.com/@uniswap/token-lists/-/token-lists-1.0.0-beta.33.tgz#966ba96c9ccc8f0e9e09809890b438203f2b1911"
-  integrity sha512-JQkXcpRI3jFG8y3/CGC4TS8NkDgcxXaOQuYW8Qdvd6DcDiIyg2vVYCG9igFEzF0G6UvxgHkBKC7cWCgzZNYvQg==
-
 "@yarn-tool/resolve-package@^1.0.40":
   version "1.0.43"
   resolved "https://registry.npmjs.org/@yarn-tool/resolve-package/-/resolve-package-1.0.43.tgz"
@@ -3363,6 +3346,23 @@ depd@2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/depd/-/depd-2.0.0.tgz"
   integrity sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==
+
+depin-dex-sdk-core@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/depin-dex-sdk-core/-/depin-dex-sdk-core-1.0.0.tgz#9350c00184e058e7bf95422135193e970afa810d"
+  integrity sha512-3wtHOH7BavbVbBQNGINV/BaE7MtNeUGCMAWpnygHShKYZxBaPb206QWEx45ovtNSy5NRRMryySl008L1zvsPcA==
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.4"
+    tiny-invariant "^1.1.0"
+    toformat "^2.0.0"
+
+depin-dex-token-lists@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/depin-dex-token-lists/-/depin-dex-token-lists-1.0.0.tgz#35fca44768414eada3d8c2f07263fc60f2a536a1"
+  integrity sha512-R9rxCCzXABiurdTilPeHLVrN9Pe+XkNMlbkjLOfSfjgw/QzACg8sRoxdbZJOcSU4y5Os8h5xVNWtAvqZgWR8cQ==
 
 des.js@^1.0.0:
   version "1.0.1"

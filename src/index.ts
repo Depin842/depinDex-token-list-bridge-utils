@@ -1,4 +1,4 @@
-import { TokenList } from '@uniswap/token-lists'
+import { TokenList } from 'depin-dex-token-lists'
 import { cloneDeep, groupBy, merge } from 'lodash'
 import { ChainId } from './constants/chainId'
 import { buildList } from './providers'

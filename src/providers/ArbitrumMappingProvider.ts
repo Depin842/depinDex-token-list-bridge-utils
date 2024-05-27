@@ -1,7 +1,7 @@
 import { MappingProvider } from './MappingProvider'
 import { getNetworkConfig } from '../arbitrum/instantiate_bridge'
 import { getL2TokenAddressesFromL1 } from '../arbitrum/gateway'
-import { TokenList } from '@uniswap/token-lists'
+import { TokenList } from 'depin-dex-token-lists'
 import { GenericMappedTokenData } from '../constants/types'
 
 /**

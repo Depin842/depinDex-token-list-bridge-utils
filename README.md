@@ -3,8 +3,6 @@
 ## Description
 This package contains utility functions used for converting an L1 token list into a cross-chain tokenlist by adding cross-chain mapping information for Arbitrum, Optimism, and Polygon to a given L1 list.
 
-Mappings get added in the form of an extensions field, following this [schema](https://github.com/Uniswap/token-lists/issues/51#issuecomment-952268629).
-(Currently does not fill information for origin and destination bridge addresses)
 
 ex:
 
@@ -74,29 +72,11 @@ mergeTokenLists
 
 ## Usage (from external package):
 ### Install Package
-`yarn add @uniswap/token-list-bridge-utils`
+`yarn add depin-dex-token-list-bridge-utils`
 
 or
 
-`npm i @uniswap/token-list-bridge-utils`
-
-### Create .env file (Optional)
-- By default, the library uses `https://rpc.ankr.com/eth` as the MAINNET_RPC env variable value required by arbitrum-sdk. You can override this value by creating a .env file in your root directory and setting a value for MAINNET_RPC.
-
-  - Sample .env file contents:
-
-    `MAINNET_RPC="https://mainnet.infura.io/v3/<infura key>"`
-- Note: If this is not set correctly, the library will throw a NETWORK_ERROR error code.
-
-### Call Function
-#### CommonJS
-`const bridge_utils  = require('@uniswap/token-list-bridge-utils');`
-
-`let chainifiedList = await bridge_utils.chainify(tokenList);`
-#### ESM
-`import { chainify } from '@uniswap/token-list-bridge-utils';`
-
-`let chainifiedList = await chainify(tokenList);`
+`npm i depin-dex-token-list-bridge-utils`
 
 ## Run Tests
 

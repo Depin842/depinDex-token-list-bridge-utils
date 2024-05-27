@@ -4,7 +4,7 @@ import { ArbitrumMappingProvider } from './ArbitrumMappingProvider'
 import { OptimismMappingProvider } from './OptimismMappingProvider'
 import { PolygonMappingProvider } from './PolygonMappingProvider'
 import { BnbMappingProvider } from './BnbMappingProvider'
-import { TokenInfo, TokenList } from '@uniswap/token-lists'
+import { TokenInfo, TokenList } from 'depin-dex-token-lists'
 import { ethers } from 'ethers'
 import {
   compareTokenInfos,
